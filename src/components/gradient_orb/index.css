@@ -1,0 +1,81 @@
+.gradientOrb__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.gradientOrb {
+  background: radial-gradient(
+    circle,
+    var(--color-gold) 0%,
+    var(--color-pink) 24%,
+    var(--color-black) 58%
+  );
+  border-radius: 50%;
+  width: 1000px;
+  height: 1000px;
+  animation: float 3s ease infinite;
+}
+
+@keyframes float {
+  from,
+  to {
+    transform: translateY(-0%);
+  }
+
+  50% {
+    transform: translateY(-3%);
+  }
+}
+
+@media (max-width: 1115px) {
+  .gradientOrb {
+    width: 800px;
+    height: 800px;
+  }
+}
+
+@media (max-width: 810px) {
+  .gradientOrb {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .gradientOrb {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .gradientOrb {
+    width: 1300px;
+    height: 1300px;
+  }
+}
+
+/* @media (min-width: 2560px) {
+  .gradientOrb {
+    width: 400px;
+    height: 400px;
+  }
+} */
+
+/*
+//414 - 749
+@media (max-width: 750px)
+
+//750 - 1023
+@media (max-width: 1024px) {
+
+  //1024 - 1439
+@media (max-width: 1440px) {
+
+  //1440 - 1920
+@media (max-width: 1920px) {
+
+      //2560++
+@media (min-width: 2560px) {
+
+*/

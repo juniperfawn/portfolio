@@ -1,0 +1,68 @@
+.projectCard {
+  border: white solid 0.5px;
+  padding: 60px;
+  transition: 300ms;
+  background-color: var(--color-black);
+}
+
+/* .projectCard:hover {
+  background-image: url("../../assets/intro_img01.jpg");
+  background-image: url("../../assets/arce.png");
+  background-image: url("../../assets/screenshot.png");
+  background-image: url("../../assets/norway.jpeg");
+  background-image: url("../../assets/interior.png");
+  background-size: cover;
+  background-position: center;
+} */
+
+.projectCard:hover h2 {
+  color: var(--color-white);
+  -webkit-text-fill-color: var(
+    --color-black
+  ); /* Will override color (regardless of order) */
+  -webkit-text-stroke: 0.75px white;
+}
+
+.projectCard h2 {
+  color: var(--color-pink);
+  font-size: var(--fs-title-primary);
+  font-family: var(--ff-primary);
+  transition: 500ms;
+}
+
+.projectCard p {
+  padding-top: 20px;
+  font-size: var(--fs-text);
+  text-align: left;
+  font-family: var(--ff-secondary);
+  line-height: var(--text-line-height);
+}
+
+@media (max-width: 414px) {
+  .projectCard {
+    padding: 15px;
+    min-width: 350px;
+    text-align: center;
+  }
+
+  .projectCard p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1920px) {
+  .projectCard {
+    padding: 100px;
+    min-height: 400px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 890px) {
+  .projectCard h2 {
+    text-align: center;
+  }
+  .projectCard p {
+    text-align: center;
+  }
+}

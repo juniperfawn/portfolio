@@ -1,0 +1,45 @@
+.getToKnow__Wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 999;
+}
+
+.aboutme__p {
+  font-size: 18px;
+}
+
+.getToKnow {
+  font-family: var(--ff-secondary);
+  padding: 60px;
+  color: var(--color-white);
+  font-size: var(--fs-text);
+  line-height: 1.5;
+}
+
+.getToKnow__extra {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  gap: 50px;
+  text-align: center;
+}
+
+.backToTop__button {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 750px) {
+  .aboutme__p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .desktopDisplayOnly {
+    display: none;
+  }
+
+  .getToKnow__extra {
+    justify-content: center;
+  }
+}
