@@ -1,6 +1,6 @@
 import "./index.css";
 import GradientOrb from "../gradient_orb/gradientorb";
-import { motion as m } from "framer-motion";
+// import { motion as m } from "framer-motion";
 
 const About = () => {
   return (

@@ -28,9 +28,9 @@ const projects = [
     image: "../../assets/norway.jpeg",
   },
   {
-    title: "DTT ASSIGNMENT",
+    title: "ATLAS REAL ESTATE",
     previewDescription:
-      "Transformed the online presence of DTT, seamlessly integrating design and functionality to present an enticing digital landscape for exploring housing properties with a blend of innovation and user-friendly experience.",
+      "Transformed the online presence of Atlas Real Estate, seamlessly integrating design and functionality to present an enticing digital landscape for exploring housing properties with a blend of innovation and user-friendly experience.",
     image: "../../assets/interior.png",
   },
   {
