@@ -1,7 +1,5 @@
 import "./index.css";
 import GradientOrb from "../gradient_orb/gradientorb";
-// import { motion as m } from "framer-motion";
-
 const About = () => {
   return (
     <div className="about__wrapper">

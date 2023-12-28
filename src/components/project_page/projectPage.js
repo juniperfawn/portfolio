@@ -40,10 +40,10 @@ const ProjectPage = () => {
         </div>
         <div className="mockup">
           <div className="mockup__desktop">
-            <img src={require("../../assets/desktop.png")} />
+            <img src={require("../../assets/desktop.png")} alt="" />
           </div>
           <div className="mockup__mobile">
-            <img src={require("../../assets/mobile.png")} />
+            <img src={require("../../assets/mobile.png")} alt="" />
           </div>
           <div className="mockup__links">
             <div className="mockup__link">

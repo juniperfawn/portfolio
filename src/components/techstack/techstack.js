@@ -10,76 +10,56 @@ import React from "../../assets/react.svg";
 import Tailwind from "../../assets/tailwind.svg";
 import Vscode from "../../assets/vscode.svg";
 import Vue from "../../assets/vuejs.svg";
-import { motion as m } from "framer-motion";
-
-{
-  /* <motion.div
-  whileHover={{ scale: 1.2, rotate: 90 }}
-  whileTap={{
-    scale: 0.8,
-    rotate: -90,
-    borderRadius: "100%",
-  }}
-/>; */
-}
 
 const TechStack = () => {
   return (
     <div className="techstack__wrapper">
       <div className="techstack">
         <div className="topWrapper">
-          <m.div
-            className="techstack__icons"
-            whileHover={{ scale: 1.2, rotate: 360 }}
-            whileTap={{
-              scale: 0.8,
-              rotate: -90,
-              borderRadius: "100%",
-            }}
-          >
-            <img src={Figma} />
-            {/* <p>FIGMA</p> */}
-          </m.div>
           <div className="techstack__icons">
-            <img src={Illustrator} />
+            <img src={Figma} alt="" />
+            {/* <p>FIGMA</p> */}
+          </div>
+          <div className="techstack__icons">
+            <img src={Illustrator} alt="" />
             {/* <p>ILLUSTRATOR</p> */}
           </div>
           <div className="techstack__icons">
-            <img src={Tailwind} />
+            <img src={Tailwind} alt="" />
             {/* <p>TAILWIND</p> */}
           </div>
           <div className="techstack__icons">
-            <img src={Javascript} />
+            <img src={Javascript} alt="" />
             {/* <p>JAVASCRIPT</p> */}
           </div>
           <div className="techstack__icons">
-            <img src={Github} />
+            <img src={Github} alt="" />
             {/* <p>GITHUB</p> */}
           </div>
         </div>
         <div className="bottomWrapper">
           <div className="techstack__icons">
-            <img src={Nextjs} />
+            <img src={Nextjs} alt="" />
             {/* <p>NEXTJS</p> */}
           </div>
           <div className="techstack__icons">
-            <img src={Css} />
+            <img src={Css} alt="" />
             {/* <p>CSS</p> */}
           </div>
           <div className="techstack__icons">
-            <img src={React} />
+            <img src={React} alt="" />
             {/* <p>REACT</p> */}
           </div>
           <div className="techstack__icons">
-            <img src={Vue} />
+            <img src={Vue} alt="" />
             {/* <p>VUE</p> */}
           </div>
           <div className="techstack__icons">
-            <img src={Html} />
+            <img src={Html} alt="" />
             {/* <p>HTML</p> */}
           </div>
           <div className="techstack__icons">
-            <img src={Vscode} />
+            <img src={Vscode} alt="" />
             {/* <p>VSCODE</p> */}
           </div>
         </div>
