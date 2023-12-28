@@ -4,17 +4,10 @@ import Coolbutton from "./components/button/button";
 import ProjectContainer from "./components/projects_container/projectContainer";
 import TechStack from "./components/techstack/techstack";
 import Aboutmain from "./components/about_main/aboutmain";
-import { motion as m } from "framer-motion";
 
 const Home = () => {
   return (
     <>
-      {/* <m.div
-        initial={{ y: "100%" }}
-        animate={{ y: "0%" }}
-        transition={{ duration: 0.75, ease: "easeOut" }}
-        exit={{ opacity: 1 }}
-      > */}
       <Header />
       <ProjectContainer />
       <div className="wrapper">
@@ -34,7 +27,6 @@ const Home = () => {
           <GradientOrb />
         </div>
       </div>
-      {/* </m.div> */}
     </>
   );
 };
