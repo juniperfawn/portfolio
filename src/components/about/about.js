@@ -1,5 +1,6 @@
 import "./index.css";
 import GradientOrb from "../gradient_orb/gradientorb";
+
 const About = () => {
   return (
     <div className="about__wrapper">
@@ -33,7 +34,7 @@ const About = () => {
           <GradientOrb />
         </div>
         <div className="about__portrait--wrapper">
-          <img src={require("../../assets/portrait.png")} />
+          <img src={require("../../assets/portrait.png")} alt="" />
         </div>
       </div>
     </div>
