@@ -4,7 +4,7 @@ import * as React from "react";
 
 const projects = [
   {
-    title: "ARCE FASHION DESIGNER & PATTERNMAKER",
+    title: "ARCÉ FASHION DESIGNER & PATTERNMAKER",
     previewDescription:
       "Crafted a sleek and stylish online presence for Arce, seamlessly integrating design and development to elevate the brand's fashion experience.",
     image: "../../assets/arce.png",
