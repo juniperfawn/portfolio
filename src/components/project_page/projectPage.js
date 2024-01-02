@@ -46,14 +46,15 @@ const ProjectPage = () => {
             <img src={require("../../assets/arcemobile.jpg")} alt="" />
           </div>
           <div className="mockup__links">
+            {/* <a href="https://arcestudios.netlify.app/"> */}
             <div className="mockup__link">
-              <a href="https://arcestudios.netlify.app/">LIVE SITE</a>
-              {/* <p>LIVE SITE</p> */}
+              <p>LIVE SITE</p>
               <div className="button-border__corner --1"></div>
               <div className="button-border__corner --2"></div>
               <div className="button-border__corner --3"></div>
               <div className="button-border__corner --4"></div>
             </div>
+            {/* </a> */}
             <div className="mockup__link">
               <p>GITHUB REPOSITORY</p>
               <div className="button-border__corner --1"></div>
