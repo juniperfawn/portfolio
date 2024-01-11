@@ -9,12 +9,11 @@ const About = () => {
           <h1>ABOUT</h1>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at
-          pellentesque velit, et facilisis massa. In mollis cursus velit, vitae
-          imperdiet purus tincidunt vel. Nulla metus nisl, mollis eget posuere
-          scelerisque, aliquam a odio. Nam tempor purus ipsum, quis pulvinar
-          nibh tincidunt at. Nullam iaculis enim at risus vestibulum congue. In
-          imperdiet diam eget est imperdiet vestibulum.{" "}
+          I am a Swiss American Creative Developer who originally grew up in
+          Colorado, USA but now currently is based out of the Netherlands. I
+          love creating everything media! I completed my University degrees in
+          Media Production and Media Design with a minor in Engineering of
+          Technology Arts & Media.{" "}
         </p>
         <p>
           Etiam ac purus ut diam molestie viverra vitae quis nulla. Donec
