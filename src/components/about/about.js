@@ -9,31 +9,49 @@ const About = () => {
           <h1>ABOUT</h1>
         </div>
         <p>
-          I am a Swiss American Creative Developer who originally grew up in
-          Colorado, USA but now currently is based out of the Netherlands. I
-          love creating everything media! I completed my University degrees in
-          Media Production and Media Design with a minor in Engineering of
-          Technology Arts & Media.{" "}
+          My name is Cera Kocher. I am a Swiss American Creative Developer who
+          originally grew up in Colorado, USA but now currently is based out of
+          the Netherlands. I completed my University degrees in Media Production
+          and Media Design with a minor in Engineering of Technology Arts &
+          Media.{" "}
         </p>
         <p>
-          Etiam ac purus ut diam molestie viverra vitae quis nulla. Donec
-          commodo nec augue nec iaculis. Quisque enim lectus, malesuada nec
-          fringilla vitae, porttitor sit amet felis. Nulla at lacus tincidunt,
-          tincidunt dui at, dapibus metus. Proin dictum ultricies lacus.
-          Pellentesque non lectus eleifend, lobortis velit quis, facilisis
-          purus.{" "}
+          My interests span a wide spectrum of endeavors, ranging from digital
+          design and web development to the exhilarating realm of experiences
+          that fuel my creativity and zest for life.{" "}
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut{" "}
+          For instance, I acquired my motorcycle license and promptly adorned my
+          bike with a personalized paint job. At 19 I delved into the world of
+          Muay Thai, reaching a level where I could participate in amateur
+          competitions. A certified White Water Raft Guide, a seasoned barista
+          of nearly a decade, and a solo sojourn to the Arctic Circle to master
+          the art of mushing sled dogs are just a few chapters of my adventurous
+          journey.{" "}
         </p>
+        <p>
+          Venturing into Indie Game Development, evolving from a photography
+          hobbyist to a professional photographer, and sustaining a lifelong
+          commitment to global exploration are among my ongoing pursuits. Life,
+          for me, is a tapestry of experiences and connections. Fueled by an
+          insatiable curiosity about the workings of the world, I find joy in
+          being an active participant. This philosophy has guided me across the
+          globe, forming deeply rewarding connections and experiences. At my
+          core, I am someone enchanted by the magic of personal growth and
+          relentless pursuit-a firm believer that life’s richness lies in the
+          experiences it offers.{" "}
+        </p>
+        <quote>
+          "Don't sit and wait. Get out there, feel life. Touch the sun, and
+          immerse in the sea" -Rumi
+        </quote>
       </div>
       <div className="about__visual">
         <div className="about__gradientOrb--wrapper">
           <GradientOrb />
         </div>
         <div className="about__portrait--wrapper">
-          <img src={require("../../assets/portrait.png")} alt="" />
+          <img src={require("../../assets/portrait.jpg")} alt="" />
         </div>
       </div>
     </div>

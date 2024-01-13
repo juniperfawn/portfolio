@@ -1,5 +1,6 @@
 .about__wrapper {
   padding: 80px;
+  padding-top: 20px;
   display: flex;
   gap: 200px;
   overflow: hidden;
@@ -56,7 +57,7 @@
 .about__portrait--wrapper {
   position: relative;
   z-index: 999;
-  height: 400px;
+  height: 600px;
   object-fit: contain;
 }
 
@@ -81,6 +82,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+}
+
+quote {
+  color: var(--color-pink);
 }
 
 @media (max-width: 750px) {
