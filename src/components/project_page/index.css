@@ -108,6 +108,10 @@ svg {
   background-color: var(--color-white-20);
 }
 
+/* a {
+  all: unset;
+} */
+
 p {
   color: var(--color-white);
 }

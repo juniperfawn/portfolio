@@ -1,7 +1,7 @@
 import "./index.css";
 import GradientOrb from "../gradient_orb/gradientorb";
 
-const ProjectPage = () => {
+const ProjectPage = (props) => {
   return (
     <div className="projectPage__wrapper">
       <div className="projectPage">
@@ -46,21 +46,23 @@ const ProjectPage = () => {
             <img src={require("../../assets/arcemobile.jpg")} alt="" />
           </div>
           <div className="mockup__links">
-            {/* <a href="https://arcestudios.netlify.app/"> */}
             <div className="mockup__link">
-              <p>LIVE SITE</p>
-              <div className="button-border__corner --1"></div>
-              <div className="button-border__corner --2"></div>
-              <div className="button-border__corner --3"></div>
-              <div className="button-border__corner --4"></div>
+              <a href="https://arcestudios.netlify.app/">
+                <p>LIVE SITE</p>
+                <div className="button-border__corner --1"></div>
+                <div className="button-border__corner --2"></div>
+                <div className="button-border__corner --3"></div>
+                <div className="button-border__corner --4"></div>
+              </a>
             </div>
-            {/* </a> */}
             <div className="mockup__link">
-              <p>GITHUB REPOSITORY</p>
-              <div className="button-border__corner --1"></div>
-              <div className="button-border__corner --2"></div>
-              <div className="button-border__corner --3"></div>
-              <div className="button-border__corner --4"></div>
+              <a href="https://github.com/juniperfawn/arce">
+                <p>GITHUB REPOSITORY</p>
+                <div className="button-border__corner --1"></div>
+                <div className="button-border__corner --2"></div>
+                <div className="button-border__corner --3"></div>
+                <div className="button-border__corner --4"></div>
+              </a>
             </div>
             <div className="mockup__link">
               <p>DESIGN PDF</p>

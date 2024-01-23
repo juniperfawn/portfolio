@@ -5,11 +5,11 @@ import ProjectContainer from "./components/projects_container/projectContainer";
 import TechStack from "./components/techstack/techstack";
 import Aboutmain from "./components/about_main/aboutmain";
 
-const Home = () => {
+const Home = (props) => {
   return (
     <>
       <Header />
-      <ProjectContainer />
+      <ProjectContainer projects={props.projects} />
       <div className="wrapper">
         <div className="gradientOrb--middle">
           <GradientOrb />

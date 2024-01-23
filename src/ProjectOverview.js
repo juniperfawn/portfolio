@@ -1,5 +1,5 @@
 import ProjectPage from "./components/project_page/projectPage";
-const ProjectOverview = () => {
+const ProjectOverview = (props) => {
   return (
     <>
       <ProjectPage />
