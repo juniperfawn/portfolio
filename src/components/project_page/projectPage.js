@@ -1,42 +1,25 @@
 import "./index.css";
 import GradientOrb from "../gradient_orb/gradientorb";
+import { useParams } from "react-router-dom";
 
 const ProjectPage = (props) => {
+  const { projectId } = useParams();
+  const project = props.projects[projectId];
+
   return (
     <div className="projectPage__wrapper">
       <div className="projectPage">
         <div className="projectPage__about">
-          <h1>ARCÉ - FASHION DESIGNER & PATTERNMAKER</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at
-            pellentesque velit, et facilisis massa. In mollis cursus velit,
-            vitae imperdiet purus tincidunt vel. Nulla metus nisl, mollis eget
-            posuere scelerisque, aliquam a odio. Nam tempor purus ipsum, quis
-            pulvinar nibh tincidunt at. Nullam iaculis enim at risus vestibulum
-            congue. In imperdiet diam eget est imperdiet vestibulum.
-          </p>
-          <p>
-            Etiam ac purus ut diam molestie viverra vitae quis nulla. Donec
-            commodo nec augue nec iaculis. Quisque enim lectus, malesuada nec
-            fringilla vitae, porttitor sit amet felis. Nulla at lacus tincidunt,
-            tincidunt dui at, dapibus metus. Proin dictum ultricies lacus.
-            Pellentesque non lectus eleifend, lobortis velit quis, facilisis
-            purus.
-          </p>
+          <h1>{project.title}</h1>
+          <p>{project.pageDescription1}</p>
+          <p>{project.pageDescription2}</p>
         </div>
         <div className="projectPage__skillPills">
-          <div className="skillPills">
-            <p>HTML</p>
-          </div>
-          <div className="skillPills">
-            <p>REACT</p>
-          </div>
-          <div className="skillPills">
-            <p>TAILWIND</p>
-          </div>
-          <div className="skillPills">
-            <p>ILLUSTRATOR</p>
-          </div>
+          {project.tech.map((tech, index) => (
+            <div className="skillPills" key={index}>
+              <p>{tech}</p>
+            </div>
+          ))}
         </div>
         <div className="mockup">
           <div className="mockup__desktop">
@@ -47,7 +30,7 @@ const ProjectPage = (props) => {
           </div>
           <div className="mockup__links">
             <div className="mockup__link">
-              <a href="https://arcestudios.netlify.app/">
+              <a href={project.siteLink} target="_blank">
                 <p>LIVE SITE</p>
                 <div className="button-border__corner --1"></div>
                 <div className="button-border__corner --2"></div>
@@ -56,7 +39,7 @@ const ProjectPage = (props) => {
               </a>
             </div>
             <div className="mockup__link">
-              <a href="https://github.com/juniperfawn/arce">
+              <a href={project.githubLink} target="_blank">
                 <p>GITHUB REPOSITORY</p>
                 <div className="button-border__corner --1"></div>
                 <div className="button-border__corner --2"></div>

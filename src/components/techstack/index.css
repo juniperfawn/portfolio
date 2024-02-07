@@ -11,13 +11,27 @@
   color: var(--color-pink);
   font-size: var(--fs-text);
   font-family: var(--ff-secondary);
-  padding-top: 10px;
+  /* padding-top: 10px; */
   opacity: 0;
 }
 
 .techstack__wrapper span {
   padding: 1.5px;
 }
+
+/* .figma {
+  transition: 800ms;
+}
+
+.figma:hover {
+  p {
+    opacity: 1;
+  }
+
+  img {
+    opacity: 0;
+  }
+} */
 
 .fancy > .letter {
   display: inline-block;
@@ -109,9 +123,11 @@
 }
 
 .techstack__icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  /* transition: 500ms; */
+  transition: 300ms;
 }
 
 .techstack__icons img {

@@ -4,7 +4,7 @@
   display: flex;
   gap: 200px;
   overflow: hidden;
-  position: fixed;
+  position: relative;
   z-index: 999;
   height: 100%;
   width: 100%;
@@ -91,10 +91,30 @@ quote {
 @media (max-width: 750px) {
   .about__wrapper {
     display: block;
+    padding: 60px;
   }
   .about__text {
     padding-bottom: 60px;
     text-align: center;
     width: auto;
+  }
+  .about__text h1::after {
+    top: 50px;
+  }
+
+  .about__gradientOrb--wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  .about__text h1::after {
+    top: 40px;
+  }
+  .about__text h1 {
+    padding-bottom: 20px;
+  }
+  .about__wrapper {
+    padding: 30px;
   }
 }

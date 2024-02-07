@@ -16,8 +16,9 @@ const TechStack = () => {
     <div className="techstack__wrapper">
       <div className="techstack">
         <div className="topWrapper">
-          <div className="techstack__icons">
+          <div className="techstack__icons figma">
             <img src={Figma} alt="" />
+            <p>FIGMA</p>
             {/* <p>FIGMA</p> */}
           </div>
           <div className="techstack__icons">

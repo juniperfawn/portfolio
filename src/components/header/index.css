@@ -170,6 +170,10 @@
   .header__developer {
     font-size: 120px;
   }
+
+  .star {
+    width: 175px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -183,6 +187,14 @@
     top: -50px;
     font-size: 100px;
   }
+
+  .star {
+    width: 150px;
+  }
+
+  .start p {
+    font-size: 8px;
+  }
 }
 
 @media (max-width: 483px) {
@@ -195,6 +207,14 @@
   .header__developer {
     top: -50px;
     font-size: 80px;
+  }
+
+  .star {
+    width: 100px;
+  }
+
+  .star p {
+    display: none;
   }
 }
 

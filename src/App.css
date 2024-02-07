@@ -9,7 +9,7 @@
   --color-white-20: rgba(255, 255, 255, 0.2);
   --color-gold: rgb(247, 147, 30);
   /*fonts*/
-  --ff-primary: "HelveticaNeue-CondensedBlack";
+  --ff-primary: "HelveticaNeue-CondensedBlack", "Arial Black";
   --ff-secondary: "Lucida Grande", sans-serif;
   /*font size*/
   --fs-hero: 100px;
