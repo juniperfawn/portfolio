@@ -39,6 +39,7 @@ svg {
   background-color: var(--color-white-20);
   padding: 10px 15px 10px 15px;
   border-radius: 50px;
+  text-align: center;
 }
 
 .skillPills p {
@@ -240,6 +241,10 @@ p {
 
   .projectPage__about h1 {
     padding-bottom: 10px;
+  }
+
+  .skillPills p {
+    font-size: 8px;
   }
 }
 /* 
