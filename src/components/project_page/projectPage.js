@@ -30,7 +30,7 @@ const ProjectPage = (props) => {
           </div>
           <div className="mockup__links">
             <div className="mockup__link">
-              <a href={project.siteLink} target="_blank">
+              <a href={project.siteLink} target="_blank" rel="noreferrer">
                 <p>LIVE SITE</p>
                 <div className="button-border__corner --1"></div>
                 <div className="button-border__corner --2"></div>
@@ -39,7 +39,7 @@ const ProjectPage = (props) => {
               </a>
             </div>
             <div className="mockup__link">
-              <a href={project.githubLink} target="_blank">
+              <a href={project.githubLink} target="_blank" rel="noreferrer">
                 <p>GITHUB REPOSITORY</p>
                 <div className="button-border__corner --1"></div>
                 <div className="button-border__corner --2"></div>
