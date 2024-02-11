@@ -6,6 +6,12 @@ import AboutMe from "./AboutMe";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { useLayoutEffect } from "react";
+import arceDesktop from "./assets/arce.jpg";
+import arceMobile from "./assets/arcemobile.jpg";
+import portfolioDesktop from "./assets/portfolioDesktop.jpg";
+import portfolioMobile from "./assets/portfolioMobile.jpg";
+import contesseStudiosDesktop from "./assets/contesseDesktop.jpg";
+import contesseStudiosMobile from "./assets/contesseMobile.jpg";
 
 const projects = [
   {
@@ -33,15 +39,15 @@ const projects = [
     pageDescription2:
       "This is a website prospective clients can come to to get a sampling of different services I can provide.",
     previewImage: "../../assets/norway.jpeg",
-    desktopMockup: "../../assets/screenshot.png",
-    mobileMockup: "../../assets/screenshot.png",
-    tech: ["REACT", "CSS", "ADOBE ILLUSTRATOR", "FRAMER"],
-    siteLink: "",
-    githubLink: "",
+    desktopMockup: contesseStudiosDesktop,
+    mobileMockup: contesseStudiosMobile,
+    tech: ["REACT", "ADOBE ILLUSTRATOR", "FRAMER"],
+    siteLink: "https://contessestudios.netlify.app/",
+    githubLink: "https://github.com/juniperfawn/contessestudios",
     pdfLink: "",
   },
   {
-    title: "ARCÉ FASHION BRAND",
+    title: "ARCÉ CLOTHING BRAND",
     previewDescription:
       "Crafted a sleek and stylish landing page for Arcé, seamlessly integrating design and development to elevate the brand's fashion experience.",
     pageDescription1:
@@ -49,9 +55,9 @@ const projects = [
     pageDescription2:
       "Currently arcé only has a landing page since all of the work behind the scenes is underway. Once the development is closer to completion I will update the preview here.",
     previewImage: "../../assets/arce.png",
-    desktopMockup: "../../assets/screenshot.png",
-    mobileMockup: "../../assets/screenshot.png",
-    tech: ["REACT", "CSS", "ADOBE ILLUSTRATOR"],
+    desktopMockup: arceDesktop,
+    mobileMockup: arceMobile,
+    tech: ["REACT", "FIGMA", "ADOBE ILLUSTRATOR"],
     siteLink: "https://arcestudios.netlify.app/",
     githubLink: "https://github.com/juniperfawn/arce",
     pdfLink: "",
@@ -97,10 +103,10 @@ const projects = [
     pageDescription2:
       "So moving forward I want to continue to explore animation, interaction, and a way to combine multimedia over the web. Imagine photography, video, 3D, pixel art, you name it I’d love to delve more into those worlds. I believe having a background in design/media moving into the web has greater advantages than I could have believed. Thank goodness I gave code another chance after my intro to coding c# and python class haha! Hope you enjoy your look around here.",
     previewImage: "../../assets/arce.png",
-    desktopMockup: "../../assets/screenshot.png",
-    mobileMockup: "../../assets/screenshot.png",
+    desktopMockup: portfolioDesktop,
+    mobileMockup: portfolioMobile,
     tech: ["REACT", "REACT ROUTER", "FRAMER MOTION", "ADOBE ILLUSTRATOR"],
-    siteLink: "https://cerakocher.netlify.app/",
+    siteLink: "https://cerackocher.com/",
     githubLink: "https://github.com/juniperfawn/portfolio",
     pdfLink: "",
   },
