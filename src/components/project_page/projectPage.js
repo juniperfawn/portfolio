@@ -24,13 +24,10 @@ const ProjectPage = (props) => {
         </div>
         <div className="mockup">
           <div className="mockup__desktop">
-            {/* <img src={require(project.desktopMockup)} alt="" /> */}
-            {/* <img src={project.desktopMockup} alt="" /> */}
-            <img src={project.desktopMockup} alt="" />
+            <img src={project.desktopMockup} alt="Desktop website Mockup" />
           </div>
           <div className="mockup__mobile">
-            {/* <img src={project.mobileMockup} alt="" /> */}
-            <img src={project.mobileMockup} alt="" />
+            <img src={project.mobileMockup} alt="Mobile website Mockup" />
           </div>
           <div className="mockup__links">
             <div className="mockup__link">

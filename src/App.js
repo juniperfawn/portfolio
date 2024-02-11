@@ -12,6 +12,8 @@ import portfolioDesktop from "./assets/portfolioDesktop.jpg";
 import portfolioMobile from "./assets/portfolioMobile.jpg";
 import contesseStudiosDesktop from "./assets/contesseDesktop.jpg";
 import contesseStudiosMobile from "./assets/contesseMobile.jpg";
+import comingSoonDesktop from "./assets/comingSoonDesktop.png";
+import comingSoonMobile from "./assets/comingSoonMobile.png";
 
 const projects = [
   {
@@ -23,8 +25,8 @@ const projects = [
     pageDescription2:
       "For marketing purposes I designed and developed this landing page for Redstone Hollows so those following along the development journey or are curious about the game can have this additional supplement.",
     previewImage: "../../assets/screenshot.png",
-    desktopMockup: "../../assets/screenshot.png",
-    mobileMockup: "../../assets/screenshot.png",
+    desktopMockup: comingSoonDesktop,
+    mobileMockup: comingSoonMobile,
     tech: ["REACT", "TAILWIND", "ADOBE ILLUSTRATOR", "UNITY", "ASEPRITE"],
     siteLink: "",
     githubLink: "",
@@ -71,8 +73,8 @@ const projects = [
     pageDescription2:
       "In addition to completing the development in Vue I also created the design for this website.",
     previewImage: "../../assets/interior.png",
-    desktopMockup: "../../assets/screenshot.png",
-    mobileMockup: "../../assets/screenshot.png",
+    desktopMockup: comingSoonDesktop,
+    mobileMockup: comingSoonMobile,
     tech: ["VUE.JS", "VUEX", "ADOBE ILLUSTRATOR"],
     siteLink: "",
     githubLink: "",
@@ -87,8 +89,8 @@ const projects = [
     pageDescription2:
       "Since this was a freelance client who wanted to be able to make her own edits to her content as time went on I offered to make her website using a CMS instead of hard coding the content. This way she had some more freedom in the long run to alter her content as time went on. I like having experience in both hard-coding websites but also working with CMSs since many clients may prefer such methods.",
     previewImage: "../../assets/intro_img01.jpg",
-    desktopMockup: "../../assets/screenshot.png",
-    mobileMockup: "../../assets/screenshot.png",
+    desktopMockup: comingSoonDesktop,
+    mobileMockup: comingSoonMobile,
     tech: ["CMS", "READYMAG", "ADOBE ILLUSTRATOR"],
     siteLink: "",
     githubLink: "https://github.com/juniperfawn/Ursula-Gutzwiller",
