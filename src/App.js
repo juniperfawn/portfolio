@@ -14,6 +14,10 @@ import contesseStudiosDesktop from "./assets/contesseDesktop.jpg";
 import contesseStudiosMobile from "./assets/contesseMobile.jpg";
 import comingSoonDesktop from "./assets/comingSoonDesktop.png";
 import comingSoonMobile from "./assets/comingSoonMobile.png";
+import ursulaDesktop from "./assets/ursulaDesktop.jpg";
+import ursulaMobile from "./assets/ursulaMobile.jpg";
+import redstoneDesktop from "./assets/redstoneDesktop.jpg";
+import redstoneMobile from "./assets/redstoneMobile.jpg";
 
 const projects = [
   {
@@ -25,8 +29,8 @@ const projects = [
     pageDescription2:
       "For marketing purposes I designed and developed this landing page for Redstone Hollows so those following along the development journey or are curious about the game can have this additional supplement.",
     previewImage: "../../assets/screenshot.png",
-    desktopMockup: comingSoonDesktop,
-    mobileMockup: comingSoonMobile,
+    desktopMockup: redstoneDesktop,
+    mobileMockup: redstoneMobile,
     tech: ["REACT", "TAILWIND", "ADOBE ILLUSTRATOR", "UNITY", "ASEPRITE"],
     siteLink: "",
     githubLink: "",
@@ -89,9 +93,9 @@ const projects = [
     pageDescription2:
       "Since this was a freelance client who wanted to be able to make her own edits to her content as time went on I offered to make her website using a CMS instead of hard coding the content. This way she had some more freedom in the long run to alter her content as time went on. I like having experience in both hard-coding websites but also working with CMSs since many clients may prefer such methods.",
     previewImage: "../../assets/intro_img01.jpg",
-    desktopMockup: comingSoonDesktop,
-    mobileMockup: comingSoonMobile,
-    tech: ["CMS", "READYMAG", "ADOBE ILLUSTRATOR"],
+    desktopMockup: ursulaDesktop,
+    mobileMockup: ursulaMobile,
+    tech: ["CMS", "WEBFLOW", "ADOBE ILLUSTRATOR"],
     siteLink: "",
     githubLink: "https://github.com/juniperfawn/Ursula-Gutzwiller",
     pdfLink: "",
