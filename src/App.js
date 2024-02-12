@@ -12,12 +12,14 @@ import portfolioDesktop from "./assets/portfolioDesktop.jpg";
 import portfolioMobile from "./assets/portfolioMobile.jpg";
 import contesseStudiosDesktop from "./assets/contesseDesktop.jpg";
 import contesseStudiosMobile from "./assets/contesseMobile.jpg";
-import comingSoonDesktop from "./assets/comingSoonDesktop.png";
-import comingSoonMobile from "./assets/comingSoonMobile.png";
+// import comingSoonDesktop from "./assets/comingSoonDesktop.png";
+// import comingSoonMobile from "./assets/comingSoonMobile.png";
 import ursulaDesktop from "./assets/ursulaDesktop.jpg";
 import ursulaMobile from "./assets/ursulaMobile.jpg";
 import redstoneDesktop from "./assets/redstoneDesktop.jpg";
 import redstoneMobile from "./assets/redstoneMobile.jpg";
+import wisdomDesktop from "./assets/wisdomDesktop.jpg";
+import wisdomMobile from "./assets/wisdomMobile.jpg";
 
 const projects = [
   {
@@ -69,18 +71,18 @@ const projects = [
     pdfLink: "",
   },
   {
-    title: "ATLAS REAL ESTATE",
+    title: "WISDOM OF STORIES",
     previewDescription:
-      "Transformed the online presence of Atlas Real Estate, seamlessly integrating design and functionality to present an enticing digital landscape for exploring housing properties with a blend of innovation and user-friendly experience.",
+      "We have created this space to share the stories of our elders and grandparents.   Stories that shape who we are and empower our humanity.  Join us.  Watch the stories we have collected and then share a story from an elder or grandparent that impacted your life.",
     pageDescription1:
-      "Atlas Real Estate is a faux project I created myself. It is using an API to get housing information while also having functionality to create one’s own housing listings through a form. This was practice for myself with APIs, Form handling, and trying out a different framework (Vue.js), and Vuex. With lots of different aspects to this project I’d say I found it challenging yet very fulfilling. It was fun to take a project from the base to completion with more interactive elements that a user can partake in.",
+      "The mission of New Voice Strategies is to create, incubate and launch projects to heal divides, restore compassion and strengthen self government.    In 2020 we produced the public television documentary Divided We Fall: Unity Without Tragedy https://www.dividedwefalltv.org/.   In 2022 we launched the Preamble Project: We the People https://www.preambleproject.org/ a middle and high school curriculum to build a shared understanding of what it means to be an American through an exploration on the Preamble to the U.S. Constitution. Wisdom of Stories is a part of the Preamble Project’s curriculum.",
     pageDescription2:
-      "In addition to completing the development in Vue I also created the design for this website.",
+      "We have created this space to share the stories of our elders and grandparents.   Stories that shape who we are and empower our humanity.  Join us.  Watch the stories we have collected and then share a story from an elder or grandparent that impacted your life.",
     previewImage: "../../assets/interior.png",
-    desktopMockup: comingSoonDesktop,
-    mobileMockup: comingSoonMobile,
-    tech: ["VUE.JS", "VUEX", "ADOBE ILLUSTRATOR"],
-    siteLink: "",
+    desktopMockup: wisdomDesktop,
+    mobileMockup: wisdomMobile,
+    tech: ["CMS", "SQUARESPACE", "ADOBE ILLUSTRATOR"],
+    siteLink: "https://www.wisdomofstories.com/home",
     githubLink: "",
     pdfLink: "",
   },
