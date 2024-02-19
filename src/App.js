@@ -77,7 +77,7 @@ const projects = [
     pageDescription1:
       "The mission of New Voice Strategies is to create, incubate and launch projects to heal divides, restore compassion and strengthen self government.    In 2020 we produced the public television documentary Divided We Fall: Unity Without Tragedy https://www.dividedwefalltv.org/.   In 2022 we launched the Preamble Project: We the People https://www.preambleproject.org/ a middle and high school curriculum to build a shared understanding of what it means to be an American through an exploration on the Preamble to the U.S. Constitution. Wisdom of Stories is a part of the Preamble Project’s curriculum.",
     pageDescription2:
-      "We have created this space to share the stories of our elders and grandparents.   Stories that shape who we are and empower our humanity.  Join us.  Watch the stories we have collected and then share a story from an elder or grandparent that impacted your life.",
+      "We have created this space to share the stories of our elders and grandparents.   Stories that shape who we are and empower our humanity.  Join us.  Watch the stories we have collected and then share a story from an elder or grandparent that impacted your life. I was completely in charge of overall design and development of this website using Squarespace.",
     previewImage: "../../assets/interior.png",
     desktopMockup: wisdomDesktop,
     mobileMockup: wisdomMobile,
